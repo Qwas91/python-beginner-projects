@@ -6,7 +6,7 @@ def get_valid_word(words):
     word = random.choice(words)
     while '-' in word or ' ' in word:
         word = random.choice(words)
-    return word
+    return word.upper()
 
 def hangman():
     word = get_valid_word(words)
@@ -34,7 +34,7 @@ def hangman():
             print('You have already used that character. Please try again.')
 
         else:
-            print('Invalid character. Please try again.')
+            print(f'Invalid character. Please try again.')
 
 #user_input = input('Type something: ')
 #print(user_input)
