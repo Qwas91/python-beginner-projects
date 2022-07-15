@@ -12,7 +12,7 @@ language = input("Programing language: ")
 verb2 = input("This month: ")
 wish_luck = input("Finish month: ")
 
-madlib = (f"Hey my name is {fname}! Its so excited to programming \
+madlib = (f"Hey my name is {fname} ! Its so excited to programming \
 I start learning {language} programing language. I started learning in {verb2} and want to finish it in {wish_luck}!")
 
 print(madlib)

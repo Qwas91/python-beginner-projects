@@ -14,7 +14,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set() # what the user has guessed
 
-    lives = 6
+    lives = 10
 
     # getting user input
     while len(word_letters) > 0 and lives > 0:

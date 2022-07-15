@@ -7,8 +7,8 @@ def play():
     if user == computer:
         return 'It\'s a tie'
     elif is_win(user, computer):
-        return 'You won!'
-    return 'You lost!'
+        return f'You won! I have {computer}'
+    return f'You lost! I have {computer}'
 
 def is_win(player, opponent):
 #return true if player wins
